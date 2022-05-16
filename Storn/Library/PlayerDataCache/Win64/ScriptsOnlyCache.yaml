@@ -7,9 +7,12 @@ ScriptsOnlyBuild:
     - CameraZoom
     - CheckIfBelowLevel
     - FirstPersonDrifter
+    - Floating
     - HeadBob
     - LockMouse
     - MouseLook
+    - TeleportController
+    - TeleportTarget
     - UIManager
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
@@ -230,6 +233,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6618}
     - Class: 114
       Script: {instanceID: 6622}
+    - Class: 114
+      Script: {instanceID: 58704}
+    - Class: 114
+      Script: {instanceID: 58722}
+    - Class: 114
+      Script: {instanceID: 124044}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -243,6 +252,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 205
       Script: {instanceID: 0}
@@ -1257,8 +1270,25 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: ced3eb5012f3c0f217d6c9f353fb449e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TeleportController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TeleportTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 6caaf813986c934ad1665de570b614a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Floating
   platform: 19
   scenePathNames:
   - Assets/Scenes/FResourcesStorn.unity
-  playerPath: E:/Files/NYU School/22 Spring/IIF/Builds/Build/v11_vdControl/29200
-    Storms.exe
+  playerPath: E:/Files/NYU School/22 Spring/IIF/Builds/Build/v13_bothMode/29200 Storms.exe
